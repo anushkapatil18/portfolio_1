@@ -7,7 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE-edge">
         <meta name="viewport" content="width=device-width, intial-scale=1.0">
         <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
-
+        <script type="text/javascript" src="js/JQuery.js"></script>
     </head>
     <body>
         <section>
@@ -23,7 +23,7 @@
           </nav>
           <div class="text-container">
               <p>Hello,</p>
-              <p>I'M ANUSHKA</p>
+              <p style="color: black;">I'M ANUSHKA</p>
               <a>I am Full Stack Web-Developer <br>& Designer</a>
               <br>
               <br>
@@ -80,7 +80,7 @@
             <button>Contact Me</button>
         </div>
         <footer>
-            <p>ABP.</p>
+            <p>AP.</p>
             <p>My first portfolio webiste. ShapeAi is helping me to improve my skills.</p>
             <div class="social-icons">
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -96,5 +96,13 @@
             <a href="#"><i class="fab fa-instagram"></i></a>
             <a href="#"><i class="fab fa-linkedin"></i></a>
             </div>
+            <script type="text/javascript">
+                $(document).ready(function(){
+                    $('.toggle').click(function(){
+                        $('.toggle').toggleClass('active')
+                        $('nav').toggleClass('active')
+                    })
+                })
+                </script>
     </body>
 </html>
